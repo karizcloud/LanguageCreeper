@@ -1,2 +1,2 @@
 # LanguageCreeper
-A GAMIFIED VERSION TO LEARN CODING
+A Gamified Platform to Learn Coding
