@@ -1,0 +1,65 @@
+name: languagecreeper
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0              # For HTTP requests
+  smooth_page_indicator: ^1.0.0
+  code_text_field: ^1.0.0   # For editable code text fields
+  flutter_highlight: ^0.7.0 # For syntax highlighting
+  highlight: ^0.7.0         # Backend syntax engine
+  flip_card: ^0.7.0         # For flip animation functionality
+  lottie: ^2.0.0            # For neon cube animations
+  image_picker: ^0.8.5      # Only if dealing with image picking
+  flutter_animate: ^4.0.0
+  animate_do: ^3.0.2
+  flutter_cube: ^0.1.1
+  firebase_auth: ^5.4.1
+  firebase_database: ^11.3.1
+  firebase_core: ^3.11.0
+  cloud_firestore: ^5.6.3
+  get: ^4.6.2
+  video_player: ^2.9.3
+  flutter_launcher_icons: ^0.13.1  # Corrected version format
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/faviconfinal.png"  # Make sure this exists or remove this block
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/landingLogo.png
+    - assets/landingLogo2.png
+    - assets/landingLogo3.png
+    - assets/python img 1.png
+    - assets/java img 1.png
+    - assets/c img 1.png
+    - assets/cpp img 1.png
+    - assets/js img 1.png
+    - assets/html img 1.png
+    - assets/faviconfinal.png
+    - assets/assets/faviconfinal.png
+    - assets/levelsBG.jpg
+    - assets/James/Standing.mp4
+    - assets/James/Fighting.mp4
+    - assets/Remy/Standing.mp4
+    - assets/Remy/Fighting.mp4
+    - assets/Ashton/Standing.mp4
+    - assets/Ashton/Fighting.mp4
+    - assets/html img.png
+    - assets/c img.jpeg
+
